@@ -1,0 +1,64 @@
+#heading1{
+    text-align: center;
+}
+
+.paragraph{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#products{
+    background-color: #2be2c0;
+    color: chocolate;
+    margin: 40px;
+    padding: 30px;
+    border-radius: 10px;
+}
+#products:hover{
+    background-color: rgba(226, 43, 125, 0.43);
+    transition-duration: 5s;
+}
+
+#property5{
+    display: flex;
+}
+
+#one{
+    margin-left: 30px;
+}
+
+#Myimage{
+    border-radius: 100px;
+}
+#two{
+    margin-left: 30px;
+    border-radius: 100px;
+    display: flex;
+}
+#three{
+    border-radius: 100px;
+}
+#four{
+    margin-left: 30px;
+}
+#five{
+    margin-left: 30px;
+}
+
+#main{
+    display: flex;
+}
+
+.mydiv{
+    background-color: #2be2c0;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 80px;
+    padding: 30px;
+    box-shadow: 0 0 8px purple;
+}
+
+.mydiv:hover{
+    opacity: 50%;
+}
+
