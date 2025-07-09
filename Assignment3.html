@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment3</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        fieldset{
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        legend{
+            font-weight: bold;
+        }
+
+        label{
+            display: inline-block;
+        }
+
+        input[type=text],
+        input[type=email],
+        input[type=dob]{
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>A caption for a fieldset element using Legend Tag</h1>
+<form action="">
+    <fieldset>
+
+        <legend>STUDENT</legend>
+    <br>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="" required>
+    <br><br>
+    <label for="email">Email:</label>
+        <br>
+    <input type="email" id="email" placeholder="" required>
+    <br><br>
+    <label for="dob">Date of birth:</label>
+        <br>
+    <input type="dob" id="dob" placeholder="" required>
+    <br><br>
+    <label for="Adress">Address:</label>
+        <br>
+    <input type="text" id="Adress" placeholder="" required>
+    <br><br>
+    <label for="enroll">Enroll No:</label>
+        <br>
+    <input type="text" id="enroll" placeholder="" required>
+
+    </fieldset>
+</form>
+
+</body>
+</html>
